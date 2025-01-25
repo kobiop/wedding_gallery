@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height:fit-content;
+    padding-bottom:70px;
+
+}
+
+
+

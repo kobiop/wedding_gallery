@@ -1,0 +1,29 @@
+/* Default Desktop Styles */
+.header {
+    text-align: center;
+    color: black;
+    font-family: "Cookie", cursive;
+}
+
+    .header h1 {
+        font-size: 70px;
+        font-weight: 7;
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 5rem;
+
+    }
+
+    .header p {
+        font-family: "Lobster", sans-serif;
+        font-size: 1.5rem;
+    }
+}

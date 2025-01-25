@@ -1,0 +1,30 @@
+.styled-wrapper {
+    height: fit-content;
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+    height: fit-content; /* Ensures the wrapper takes up full height */
+}
+
+.styled-text {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+/* Medium screens */
+@media (max-width: 1024px) {
+    .styled-text {
+        font-size: 30px;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 600px) {
+    .styled-text {
+        font-size: 45px;
+    }
+}

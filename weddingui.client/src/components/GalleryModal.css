@@ -1,0 +1,85 @@
+    .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    padding: 20px;
+
+
+    width: 473px;
+    height: 595px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.modal-photo {
+
+    height:591px;
+    width:473px;
+    border-radius: 10px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+    .modal-nav.left {
+        left: 10px;
+    }
+
+    .modal-nav.right {
+        right: 10px;
+    }
+
+
+
+@media (max-width: 600px) {
+
+    .modal-content {
+        width: 330px;
+        height:415px;
+        padding:10px;/* Adjust width for smaller screens */
+    }
+    .modal-photo{
+        width:330px;
+        height:412.5px;
+            
+    }
+    .modal-close {
+        top: 17px;
+        right: 17px;
+       
+    }
+    .modal-nav {
+        font-size: 1.5rem; /* Smaller arrow size */
+    }
+}

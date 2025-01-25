@@ -1,0 +1,28 @@
+/* Default Desktop Styles */
+.headerGallery {
+    text-align: center;
+    color: white;
+    font-family: "Cookie", cursive;
+}
+
+    .headerGallery h1 {
+        font-size: 70px;
+        font-weight: 7;
+        margin-bottom: 10px;
+    }
+
+    .headerGallery p {
+        font-size: 30px;
+    }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .headerGallery h1 {
+        font-size: 5rem;
+    }
+
+    .headerGallery p {
+        font-family: "Lobster", sans-serif;
+        font-size: 1.5rem;
+    }
+}
